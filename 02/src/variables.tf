@@ -53,7 +53,7 @@ variable "vpc_db" {
 
 variable "ssh_key" {
   type        = string 
-  default     = "AAAAC3NzaC1lZDI1NTE5AAAAIM2/ebqSx4KrXoLiBZC5Braj8j3EyQN6YcfBHpO36wdM"
+  default     = ""
   description = "ssh-keygen -t ed25519"
 }
 
