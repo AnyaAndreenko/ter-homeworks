@@ -51,9 +51,9 @@ variable "vpc_db" {
 
 ###ssh vars
 
-/*variable "vms_ssh_root_key" {
+variable "ssh_key" {
   type        = string 
-  default     = "<your_ssh_ed25519_key>"
+  default     = "AAAAC3NzaC1lZDI1NTE5AAAAIM2/ebqSx4KrXoLiBZC5Braj8j3EyQN6YcfBHpO36wdM"
   description = "ssh-keygen -t ed25519"
-}*/
+}
 
