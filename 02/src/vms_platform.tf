@@ -72,14 +72,8 @@ variable "vms_resources" {
     memory        = number
     core_fraction = number
   }))
-  default = {
-    "vm1" = {
-      cores         = 2
-      memory        = 2
-      core_fraction = 20
-    }
-  }
 }
+
 
 variable "vm_db_platform_id" {
   type        = string
