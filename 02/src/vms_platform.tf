@@ -68,9 +68,9 @@ variable "vm_db_core_fraction" {
 
 variable "vms_resources" {
   type = map(object({
-    cores         = 2
-    memory        = 2
-    core_fraction = 20
+    cores         = number
+    memory        = number
+    core_fraction = number
   }))
 }
 
