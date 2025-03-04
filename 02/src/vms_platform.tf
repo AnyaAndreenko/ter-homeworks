@@ -75,8 +75,8 @@ variable "vms_resources" {
   default = {
     web = {
       cores         = 2
-      memory        = 1
-      core_fraction = 5
+      memory        = 2
+      core_fraction = 20
     },
     db = {
       cores         = 2
