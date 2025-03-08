@@ -72,19 +72,9 @@ variable "vms_resources" {
     memory        = number
     core_fraction = number
   }))
-  default = {
-    web = {
-      cores         = 2
-      memory        = 2
-      core_fraction = 20
-    },
-    db = {
-      cores         = 2
-      memory        = 2
-      core_fraction = 20
-    }
+  description = "Здесь значений быть не должно"
   }
-}
+
 
 
 variable "vm_db_platform_id" {
