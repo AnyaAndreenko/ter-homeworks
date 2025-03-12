@@ -30,3 +30,11 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+variable "ssh_key" {
+  description = "отдельный файл"
+  type        = string
+}
+
+data "yandex_compute_image" "ubuntu" {
+  family = "ubuntu-2204-lts" 
+}
