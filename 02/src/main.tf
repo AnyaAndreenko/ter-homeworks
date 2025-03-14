@@ -51,7 +51,7 @@ resource "yandex_compute_instance" "platform" {
 
 
 resource "yandex_compute_instance" "db" {
-  name        = "local.vm_db_name_full"
+  name        = local.vm_db_name_full
   platform_id = "${var.vm_db_platform_id}" #значение переменной будет в файле var.
   resources {
     cores         = var.vms_resources["db"].cores
