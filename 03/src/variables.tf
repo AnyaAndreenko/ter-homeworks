@@ -40,5 +40,5 @@ data "yandex_compute_image" "ubuntu" {
 }
 
 output "ubuntu_id" {
-  value = data.yandex_compute_image.ubuntu.id
+  value = data.yandex_compute_image.ubuntu.image_id
 }
