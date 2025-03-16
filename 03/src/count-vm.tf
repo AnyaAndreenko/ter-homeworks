@@ -56,3 +56,4 @@ resource "yandex_compute_instance" "web" {
 
   metadata = local.metadata
 }
+#new
