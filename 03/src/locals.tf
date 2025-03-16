@@ -1,5 +1,5 @@
 locals {
   metadata = {
-    user-data = "${file(var.ssh_key)}"
+    user-data = file("~/.ssh/id_rsa.pub")
   }
 }

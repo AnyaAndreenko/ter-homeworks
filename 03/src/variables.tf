@@ -32,6 +32,7 @@ variable "vpc_name" {
 }
 variable "ssh_key" {
   description = "отдельный файл"
+  default = file("~/.ssh/id_rsa.pub")
   type        = string
 }
 
