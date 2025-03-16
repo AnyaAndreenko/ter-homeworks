@@ -38,4 +38,3 @@ variable "ssh_key" {
 data "yandex_compute_image" "ubuntu" {
   family = "ubuntu" 
 }
-#xnj,
