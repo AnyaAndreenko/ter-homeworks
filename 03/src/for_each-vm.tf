@@ -60,3 +60,4 @@ resource "yandex_compute_instance" "db" {
   allow_stopping_for_update = true
 
 }
+#new
